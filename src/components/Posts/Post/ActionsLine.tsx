@@ -68,12 +68,14 @@ export const ActionsLine = ({ post }: { post: IPostInfo }) => {
         <button
           className="post-actions__button post-actions__estimation-like"
           onClick={() => handleToggleLike(post)}
+          onTouchEnd={() => handleToggleLike(post)}
         >
           <LikeIcon fill={isLiked ? "#5360cd" : "#4C4B5E"} />
         </button>
         <button
           className="post-actions__button post-actions__estimation-dislike"
           onClick={() => handleToggleDislike(post)}
+          onTouchEnd={() => handleToggleDislike(post)}
         >
           <DislikeIcon fill={isDisliked ? "#fd3419" : "#4C4B5E"} />
         </button>
@@ -83,6 +85,7 @@ export const ActionsLine = ({ post }: { post: IPostInfo }) => {
           className="post-actions__button post-actions__other-bookmark"
           type="button"
           onClick={() => handleAddToFavorites(post)}
+          onTouchEnd={() => handleAddToFavorites(post)}
         >
           <BookmarkIcon fill={isFavorite ? "blue" : "#4C4B5E"} />
         </button>

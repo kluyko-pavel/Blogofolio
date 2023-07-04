@@ -79,6 +79,7 @@
   padding: 0 40px;
   justify-content: space-evenly;
   align-items: center;
+  color: #000;
 }
 .content-page__content-actions-bookmark-btn:hover {
   background-color: var(--primary-2);

@@ -10,6 +10,7 @@
 }
 .upload__btn {
   background-color: #f3f3f3;
+  color: #000;
   width: 165px;
   min-height: 56px;
   border-radius: 5px;

@@ -64,6 +64,7 @@
   min-height: 56px;
   font-size: 18px;
   border-radius: 5px;
+  color: #000;
 }
 .add-post-page__btns-add {
   background-color: var(--primary);

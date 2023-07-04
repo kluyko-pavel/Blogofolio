@@ -111,6 +111,7 @@ const ContentPage = () => {
                   className="post-actions__button post-actions__estimation-like content-page__content-actions-btn content-page__content-actions-like-btn"
                   style={{ backgroundColor: isLiked && "#5360cd" }}
                   onClick={() => handleToggleLike(selectedPost)}
+                  onTouchEnd={() => handleToggleLike(selectedPost)}
                 >
                   <LikeIcon fill={isLiked ? "#fff" : "#4C4B5E"} />
                 </button>
@@ -118,6 +119,7 @@ const ContentPage = () => {
                   className="post-actions__button post-actions__estimation-dislike content-page__content-actions-btn content-page__content-actions-dislike-btn"
                   style={{ backgroundColor: isDisliked && "#fd3419" }}
                   onClick={() => handleToggleDislike(selectedPost)}
+                  onTouchEnd={() => handleToggleDislike(selectedPost)}
                 >
                   <DislikeIcon fill={isDisliked ? "#fff" : "#4C4B5E"} />
                 </button>
@@ -126,6 +128,7 @@ const ContentPage = () => {
                 <button
                   className="post-actions__button post-actions__other-bookmark content-page__content-actions-btn content-page__content-actions-bookmark-btn"
                   onClick={() => handleAddToFavorites(selectedPost)}
+                  onTouchEnd={() => handleAddToFavorites(selectedPost)}
                 >
                   <BookmarkIcon fill="#4C4B5E" />
                   <span className="content-page__content-actions-bookmark-text">
