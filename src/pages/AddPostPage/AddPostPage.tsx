@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ImagesUploader, Loader } from "../../components";
 import { useDispatch, useSelector } from "react-redux";
 import { ImageListType, ImageType } from "react-images-uploading";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./AddPostPage.css";
 import { IStoreState } from "../../types";
 import { THEMES } from "../../constants/theme-constants";
@@ -10,6 +10,7 @@ import { addPost } from "../../redux/action-creators";
 
 export const AddPostPage = () => {
   const theme = useSelector((state: IStoreState) => state.ui.theme);
+  const navigate = useNavigate();
   const isLoading = useSelector((state: IStoreState) => state.ui.isLoading);
   const dispatch = useDispatch();
   const [title, setTitle] = useState("");
@@ -102,7 +103,11 @@ export const AddPostPage = () => {
             ></textarea>
           </label>
           <div className="add-post-page__btns">
-            <button className="add-post-page__btns-cancel" type="button">
+            <button
+              className="add-post-page__btns-cancel"
+              type="button"
+              onClick={() => navigate(-1)}
+            >
               Cancel
             </button>
             <button className="add-post-page__btns-add" type="submit">
