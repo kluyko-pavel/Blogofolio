@@ -42,7 +42,9 @@ function App() {
                 <Route index element={<MainPage />} />
                 <Route
                   path=":postId"
-                  element={isAuthorized ? <ContentPage /> : <Navigate to="/" />}
+                  element={
+                    isAuthorized ? <ContentPage /> : <Navigate to="/sign-in" />
+                  }
                 />
                 <Route path="search" element={<SearchResPage />} />
                 <Route

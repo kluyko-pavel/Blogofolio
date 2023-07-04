@@ -19,6 +19,7 @@
   cursor: pointer;
   background-color: inherit;
   font-size: 16px;
+  color: #000;
 }
 .pagination__nums-num.dark {
   color: #ffff;
