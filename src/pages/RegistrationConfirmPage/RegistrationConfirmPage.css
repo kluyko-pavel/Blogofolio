@@ -1,0 +1,9 @@
+.reg-confirm-form__text {
+  max-width: 350px;
+  line-height: 24px;
+}
+.reg-confirm-form__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

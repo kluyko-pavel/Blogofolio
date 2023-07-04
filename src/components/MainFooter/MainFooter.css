@@ -1,0 +1,10 @@
+.main-footer__inner {
+  display: flex;
+  justify-content: space-between;
+  min-height: 92px;
+  align-items: center;
+  border-top: 1px solid #dadada;
+}
+.main-footer__copywriting {
+  color: #8d8e97;
+}

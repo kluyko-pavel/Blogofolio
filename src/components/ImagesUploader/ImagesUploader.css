@@ -1,0 +1,33 @@
+.upload__input {
+  width: 50%;
+  min-height: 56px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  padding: 18px 20px;
+  background-color: #f3f3f3;
+}
+.upload__btn {
+  background-color: #f3f3f3;
+  width: 165px;
+  min-height: 56px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+.image-item__btn-remove {
+  background-color: inherit;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  color: red;
+  border-radius: 5px;
+  width: 70px;
+  min-height: 20px;
+}
+@media (max-width: 540px) {
+  .upload__input {
+    width: 45%;
+  }
+  .upload__btn {
+    width: 140px;
+  }
+}

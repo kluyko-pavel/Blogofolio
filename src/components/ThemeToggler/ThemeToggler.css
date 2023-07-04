@@ -1,0 +1,12 @@
+.theme-toggler {
+  width: 100%;
+  height: 83px;
+  display: flex;
+}
+.theme-toggler__btn {
+  width: 50%;
+  background-color: inherit;
+}
+.theme-toggler__btn:first-child {
+  border-right: 1px solid #e8e8e8;
+}

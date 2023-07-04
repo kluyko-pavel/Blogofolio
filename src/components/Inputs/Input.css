@@ -1,0 +1,31 @@
+.input-label:not(:first-child) {
+  display: block;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .input-label:not(:first-child) {
+    margin-top: 32px;
+  }
+}
+.input {
+  width: 100%;
+  min-height: 56px;
+  margin-top: 5px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  padding: 18px 20px;
+}
+.error-input {
+  outline: 1px solid red;
+}
+.error-input::placeholder {
+  color: red;
+}
+.input-error-text {
+  margin-top: 5px;
+  font-size: 12px;
+  color: red;
+  font-style: italic;
+}

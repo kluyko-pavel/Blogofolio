@@ -1,0 +1,14 @@
+.submit-btn {
+  background-color: var(--primary);
+  color: #fff;
+  width: 100%;
+  margin-top: 48px;
+  min-height: 56px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .submit-btn {
+    margin-top: 36px;
+  }
+}

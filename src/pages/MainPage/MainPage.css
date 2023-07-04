@@ -1,0 +1,8 @@
+.main-page__title {
+  margin-bottom: 40px;
+}
+@media (max-width: 540px) {
+  .main-page__title {
+    margin-bottom: 30px;
+  }
+}

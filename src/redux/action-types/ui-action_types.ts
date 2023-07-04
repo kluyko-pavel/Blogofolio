@@ -1,0 +1,5 @@
+export const SET_THEME = "SET_THEME";
+export const SET_SEARCH_STATUS = "SET_SEARCH_STATUS";
+export const TOGGLE_TOOLBAR = "TOGGLE_TOOLBAR";
+export const TOGGLE_LOADING = "TOGGLE_LOADING";
+export const TOGGLE_MODAL = "TOGGLE_MODAL";

@@ -1,0 +1,1 @@
+export { SearchResPage } from "./SearchResPage";

@@ -1,0 +1,46 @@
+.search-page__not-found {
+  font-size: 23px;
+  font-weight: 600;
+  padding-top: 40px;
+}
+.search-page__title {
+  padding-bottom: 24px;
+}
+.search-post {
+  margin: 40px 0;
+  border-bottom: 1px solid #dadada;
+}
+.search-post__content {
+  margin-bottom: 45px;
+  display: flex;
+  gap: 32px;
+}
+.search-post__content-img {
+  width: 96px;
+  height: 96px;
+}
+.search-post__content-info-title {
+  transition: 0.2s;
+  color: var(--secondary);
+}
+.search-post__content-info-title.dark {
+  color: #fff;
+}
+.search-post__content-info-title:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .search-page__title {
+    padding-bottom: 16px;
+  }
+}
+@media (max-width: 540px) {
+  .search-post {
+    margin: 32px 0;
+  }
+  .search-post__content {
+    margin-bottom: 35px;
+    gap: 22px;
+  }
+}
