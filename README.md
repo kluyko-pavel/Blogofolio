@@ -1,6 +1,6 @@
 ### Blog project
 
-[DemoLink]()
+[DemoLink](https://blogofolio.onrender.com)
 
 This application is a user-centric post viewing platform that allows users to register and login, create and rate posts, and add them to their favorites. The application also offers a search feature and the ability to switch between themes.
 
